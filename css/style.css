@@ -125,12 +125,28 @@ img {
 .size-large .close-div {
   opacity: 1;
 }
-.div p {
+.div p, .div ul li, .div h2, .div li {
   display: none;
 }
 .size-large h1 {
   display: none;
 }
-.size-large p {
+
+.size-large .container{
+	display: flex;
+	justify-content: space-around;
+	align-items: stretch;
+	width: 100%;
+}
+
+.size-large .school, .size-large .formation{
+	background-color: rgba(236, 240, 241,.75);
+	padding: 1%;
+	color: #000;
+	width: 32%;
+}
+
+.size-large p, .size-large ul li, .size-large h2{
   display: block;
+
 }
